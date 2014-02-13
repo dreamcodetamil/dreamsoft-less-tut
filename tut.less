@@ -1,0 +1,40 @@
+@textColor: white;
+@bgColor: #333;
+@border: 2px solid red;
+@content: "This is the sample content from less";
+
+// variable example
+
+#content p {
+    color: @textColor;
+    background-color: @bgColor;
+    border: @border;
+}
+
+#content p:after {
+    content: @content
+}
+
+// mixin example
+
+.myStyle {
+    color: #333;
+    border: 1px solid gray;
+}
+
+#myDiv {
+    .myStyle
+}
+
+// nested style example
+
+#myDiv {
+    background-color: black;
+    a {
+        color: red;
+    }
+    
+    p {
+        color: white;
+    }
+}

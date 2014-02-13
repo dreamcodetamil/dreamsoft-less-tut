@@ -1,0 +1,26 @@
+
+#content p {
+  color: #ffffff;
+  background-color: #333333;
+  border: 2px solid #ff0000;
+}
+#content p:after {
+  content: "This is the sample content from less";
+}
+.myStyle {
+  color: #333;
+  border: 1px solid gray;
+}
+#myDiv {
+  color: #333;
+  border: 1px solid gray;
+}
+#myDiv {
+  background-color: black;
+}
+#myDiv a {
+  color: red;
+}
+#myDiv p {
+  color: white;
+}
